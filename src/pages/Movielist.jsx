@@ -3,7 +3,7 @@ import ContentCard from "../components/ContentCard"
 function MovielistPage() {
     return (
         <div>
-            <h1 style={{ margin: '50px 0', textAlign: 'center' }}> Movielist </h1>
+            <h1 style={{ marginBottom: '50px', textAlign: 'center' }}> Movielist </h1>
             <ContentCard />
         </div>
     )
