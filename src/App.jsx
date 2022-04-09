@@ -5,6 +5,7 @@ import SignInPage from "./pages/SignIn";
 import DetailPage from "./pages/Details";
 import { Route, Routes } from 'react-router-dom';
 import NavBarComp from "./components/NavBarComp";
+import Footer from "./components/FooterComp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/register" element={<SignInPage />}></Route>
         <Route path="/details" element={<DetailPage />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
