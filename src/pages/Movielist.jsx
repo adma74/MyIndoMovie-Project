@@ -4,7 +4,7 @@ function MovielistPage() {
     return (
         <div>
             <container>
-                <h1 style={{ margin: '100px', textAlign: 'center' }}> Movielist </h1>
+                <h1 style={{ margin: '50px', textAlign: 'center' }}> Movielist </h1>
                 <ContentCard />
             </container>
         </div>
