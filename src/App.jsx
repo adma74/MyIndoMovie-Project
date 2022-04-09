@@ -2,6 +2,7 @@ import HomePage from "./pages/Home";
 import LoginPage from "./pages/Login";
 import MovielistPage from "./pages/Movielist";
 import SignInPage from "./pages/SignIn";
+import DetailPage from "./pages/Details";
 import { Route, Routes } from 'react-router-dom';
 import NavBarComp from "./components/NavBarComp";
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/movies" element={<MovielistPage />}></Route>
           <Route path="/register" element={<SignInPage />}></Route>
+          <Route path="/details" element={<DetailPage />}></Route>
         </Routes>
       </container>
     </div>
