@@ -1,4 +1,4 @@
-import { Row, Col, Card, Button } from 'react-bootstrap'
+import { Row, Col, Card, Container } from 'react-bootstrap'
 import { useNavigate } from "react-router-dom"
 
 
@@ -8,14 +8,14 @@ function ContentCard() {
     const movePage = (path) => {
         navigate(path);
     };
-    
+
     return (
-        <div>
+        <Container>
             <Row xs={2} md={4} className="g-4">
-                {[1, 2, 3, 4].map((_, idx) => (
+                {Array.from({ length: 4 }).map((_, idx) => (
                     <Col>
                         <Card style={{ width: '18rem' }} onClick={() => movePage("/details")}>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/id/5/55/WDKI_reborn.jpg" />
                             <Card.Body>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -27,7 +27,7 @@ function ContentCard() {
                     </Col>
                 ))}
             </Row>
-        </div>
+        </Container>
     )
 }
 

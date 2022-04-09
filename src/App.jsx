@@ -9,16 +9,14 @@ import NavBarComp from "./components/NavBarComp";
 function App() {
   return (
     <div>
-      <container>
-        <NavBarComp />
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/login" element={<LoginPage />}></Route>
-          <Route path="/movies" element={<MovielistPage />}></Route>
-          <Route path="/register" element={<SignInPage />}></Route>
-          <Route path="/details" element={<DetailPage />}></Route>
-        </Routes>
-      </container>
+      <NavBarComp />
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/login" element={<LoginPage />}></Route>
+        <Route path="/movies" element={<MovielistPage />}></Route>
+        <Route path="/register" element={<SignInPage />}></Route>
+        <Route path="/details" element={<DetailPage />}></Route>
+      </Routes>
     </div>
   );
 }
