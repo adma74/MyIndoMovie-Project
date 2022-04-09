@@ -11,8 +11,6 @@ function ContentCard() {
 
     return (
         <Container>
-            <h1 style={{ margin: '50px', textAlign: 'center' }}> Movielist </h1>
-
             <Row xs={2} md={4} className="g-4">
                 {Array.from({ length: 4 }).map((_, idx) => (
                     <Col>
