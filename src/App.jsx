@@ -6,10 +6,11 @@ import DetailPage from "./pages/Details";
 import { Route, Routes } from 'react-router-dom';
 import NavBarComp from "./components/NavBarComp";
 import Footer from "./components/FooterComp";
+import './assets/css/App.css'
 
 function App() {
   return (
-    <div>
+    <div className="my-component">
       <NavBarComp />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
