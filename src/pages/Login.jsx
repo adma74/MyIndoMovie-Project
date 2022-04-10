@@ -77,7 +77,11 @@ function LoginPage() {
             <ToastContainer />
             <div className="row row-cols-2">
                 <div>
-
+                <img src="https://res.cloudinary.com/daszrlaoh/image/upload/v1649593087/undraw_Access_account_re_8spm_tncpti.png"
+                width="100%"
+                height="100%"
+                alt="img-register"
+                />
                 </div>
 
                 <div>
