@@ -11,7 +11,7 @@ function CarouselHome() {
 
     return (
             <div>
-                <Carousel style={{ width: "800px" }}>
+                <Carousel style={{ width: "750px" }}>
                     <Carousel.Item onClick={() => movePage("/details")}>
                         <img
                             className="d-block"

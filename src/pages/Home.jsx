@@ -18,9 +18,11 @@ function HomePage() {
                     <Col> <CardHome /> </Col>
                 </Row>
             </Container>
-            <Button style={{ margin: "100px", backgroundColor: "black", border: "2px black" }}>
-                <h6 onClick={() => movePage("/movies")}> See More Recomendations </h6>
-            </Button>
+            <center>
+                <Button style={{ margin: "100px", backgroundColor: "black", border: "2px black" }}>
+                <h6 onClick={() => movePage("/movies")}> See More Recomendations... </h6>
+                </Button>
+            </center>
         </div>
     )
 }
