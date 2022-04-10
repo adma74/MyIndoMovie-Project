@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from "react-bootstrap"
 import { useNavigate } from 'react-router-dom'
-import "./Card.css"
+import '../assets/css/Card.css'
 
 function CardHome() {
     const navigate = useNavigate();
