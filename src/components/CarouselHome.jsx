@@ -1,10 +1,10 @@
 import React from "react";
-import {Carousel} from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 
 function CarouselHome() {
     return (
-        <div style={{margin:"50px 50px"}}>
-            <Carousel style={{width:"800px"}}>
+        <div style={{ margin: "50px 50px" }}>
+            <Carousel style={{ width: "800px" }}>
                 <Carousel.Item>
                     <img
                         className="d-block"
