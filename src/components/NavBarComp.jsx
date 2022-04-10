@@ -20,8 +20,7 @@ function NavBarComp() {
                         <Nav.Link onClick={() => movePage("/movies")}>Movielist</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link onClick={() => movePage("/register")}>Sign In</Nav.Link>
-                        <Nav.Link onClick={() => movePage("/login")}>Login</Nav.Link>
+                        <Nav.Link onClick={() => movePage("/login")}>Sign In</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
