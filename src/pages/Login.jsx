@@ -85,36 +85,7 @@ function LoginPage() {
                 </div>
 
                 <div>
-                <h1 className="text-center mb-3"> Login</h1>
-                <Form onSubmit={ (e) => onSubmit(e)}> 
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                
-                <div className="d-flex justify-content-center">
-                <Button variant="primary" type="submit">
-                    Sign In
-                </Button>
-                </div>
-            </Form>
-            <div style={{
-                marginTop: '30px',
-                display: 'flex',
-                justifyContent: 'center',
-                borderTop: '1px solid black',
-                paddingTop: '20px',
-                cursor: 'pointer'
-            }}
-                onClick={() => navigate("/register")}
-            >
-                    Haven't an account? Register here!
-                    
-                </div>
+
                 </div>
             </div>
         </container>
