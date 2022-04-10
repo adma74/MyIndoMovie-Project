@@ -1,4 +1,4 @@
-import { Navbar, Nav } from "react-bootstrap"
+import { Navbar, Nav, Container } from "react-bootstrap"
 import { useNavigate } from "react-router-dom"
 
 
@@ -10,7 +10,8 @@ function NavBarComp() {
     };
 
     return (
-            <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container>
                 <Navbar.Brand onClick={() => movePage("/")}>Logo Brand</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,7 +24,8 @@ function NavBarComp() {
                         <Nav.Link onClick={() => movePage("/login")}>Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
+            </Container>
+        </Navbar>
     )
 }
 
