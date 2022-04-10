@@ -11,10 +11,10 @@ function ContentCard() {
 
     return (
         <Container>
-            <Row xs={2} md={4} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
+            <Row xs={1} md={4} className="g-4">
+                {[1, 2, 3, 4].map((_, idx) => (
                     <Col>
-                        <Card style={{ width: '18rem' }} onClick={() => movePage("/details")}>
+                        <Card onClick={() => movePage("/details")}>
                             <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/id/5/55/WDKI_reborn.jpg" />
                             <Card.Body>
                                 <Card.Title>Card title</Card.Title>

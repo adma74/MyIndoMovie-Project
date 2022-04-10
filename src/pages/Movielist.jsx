@@ -1,12 +1,13 @@
 import ContentCard from "../components/ContentCard"
+import { Container } from 'react-bootstrap'
 
 function MovielistPage() {
     return (
         <div>
-            <container>
+            <Container>
                 <h1 style={{ margin: '50px', textAlign: 'center' }}> Movielist </h1>
                 <ContentCard />
-            </container>
+            </Container>
         </div>
     )
 }
