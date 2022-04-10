@@ -1,8 +1,8 @@
+import CarouselHome from "../components/CarouselHome"
+
 function HomePage() {
     return (
-        <div>
-            Home Page
-        </div>
+            <CarouselHome />
     )
 }
 
