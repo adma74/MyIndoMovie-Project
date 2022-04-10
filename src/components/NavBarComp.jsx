@@ -10,7 +10,6 @@ function NavBarComp() {
     };
 
     return (
-        <container>
             <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand onClick={() => movePage("/")}>Logo Brand</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,7 +24,6 @@ function NavBarComp() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </container>
     )
 }
 
