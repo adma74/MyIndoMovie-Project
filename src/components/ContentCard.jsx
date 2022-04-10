@@ -11,8 +11,8 @@ function ContentCard() {
 
     return (
         <Container>
-            <Row xs={1} md={4} className="g-4">
-                {[1, 2, 3, 4].map((_, idx) => (
+            <Row xs={1} md={5} className="g-4">
+                {[1, 2, 3, 4, 5].map((_, idx) => (
                     <Col>
                         <Card onClick={() => movePage("/details")}>
                             <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/id/5/55/WDKI_reborn.jpg" />
