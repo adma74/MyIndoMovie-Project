@@ -1,7 +1,12 @@
+import CardDetail from "../components/CardDetail"
+import { Container } from 'react-bootstrap'
+
 function DetailPage() {
     return (
         <div>
-            Details Page
+            <Container>
+                <CardDetail />
+            </Container>
         </div>
     )
 }
