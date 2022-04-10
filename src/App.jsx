@@ -1,9 +1,11 @@
 import HomePage from "./pages/Home";
 import LoginPage from "./pages/Login";
 import MovielistPage from "./pages/Movielist";
-import SignInPage from "./pages/SignIn";
+import SignInPage from "./pages/Register";
 import { Route, Routes } from 'react-router-dom';
 import NavBarComp from "./components/NavBarComp";
+import { Container } from "react-bootstrap";
+
 
 function App() {
   return (

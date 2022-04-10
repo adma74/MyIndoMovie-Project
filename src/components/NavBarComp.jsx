@@ -2,6 +2,7 @@ import { Navbar, Nav } from "react-bootstrap"
 import { useNavigate } from "react-router-dom"
 
 
+
 function NavBarComp() {
     const navigate = useNavigate();
 
