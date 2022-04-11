@@ -1,6 +1,6 @@
 import CardHome from "../components/CardHome"
 import CarouselHome from "../components/CarouselHome"
-import { Row, Col, Button, Container } from "react-bootstrap"
+import { Button, Container } from "react-bootstrap"
 import { useNavigate } from 'react-router-dom'
 
 function HomePage() {
@@ -12,15 +12,19 @@ function HomePage() {
 
     return (
         <div style={{ marginTop: '50px' }}>
-            <Container>
-                <Row>
-                    <Col> <CarouselHome /></Col>
-                    <Col> <CardHome /> </Col>
-                </Row>
-            </Container>
+            <div style={{ justifyContent: 'center' }}>
+                <Container>
+                    <CarouselHome />
+                </Container>
+            </div>
+            <div style={{ margin: '80px', display: 'flex', flexDirection: 'column-center' }}>
+                <Container>
+                    <CardHome />
+                </Container>
+            </div>
             <center>
-                <Button style={{ margin: "100px", backgroundColor: "black", border: "2px black" }}>
-                <h6 onClick={() => movePage("/movies")}> See More Recomendations... </h6>
+                <Button style={{ backgroundColor: "black", border: "2px black" }}>
+                    <h6 onClick={() => movePage("/movies")}> See More Recomendations... </h6>
                 </Button>
             </center>
         </div>
