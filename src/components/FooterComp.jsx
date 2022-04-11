@@ -13,8 +13,8 @@ function Footer() {
             <Navbar className="justify-content-center" bg='dark' variant='dark'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Nav>
-                    <Nav.Link> About Us </Nav.Link>
-                    <Nav.Link onClick={() => movePage("/help")}> Help </Nav.Link>
+                    {/* <Nav.Link> About Us </Nav.Link> */}
+                    <Nav.Link onClick={() => movePage("/help")}> Help Center </Nav.Link>
                 </Nav>
             </Navbar>
             <Container>
