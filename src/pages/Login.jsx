@@ -73,8 +73,9 @@ function LoginPage() {
         }
     }
     return (
-        
-        <FormLogin />
+        <container>
+        < FormLogin />
+        </container>
 
     );
 }

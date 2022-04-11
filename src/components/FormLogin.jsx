@@ -50,3 +50,5 @@ function LoginForm() {
         </div>
     )
 }
+
+export default FormLogin
