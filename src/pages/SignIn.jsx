@@ -1,7 +1,7 @@
 function SignInPage() {
     return (
-        <div>
-            Register Page
+        <div style={{ textAlign: 'center' }}>
+            Register Page  
         </div>
     )
 }
