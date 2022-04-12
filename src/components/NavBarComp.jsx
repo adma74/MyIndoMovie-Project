@@ -12,7 +12,7 @@ function NavBarComp() {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand onClick={() => movePage("/")}>Logo Brand</Navbar.Brand>
+                <Navbar.Brand onClick={() => movePage("/")}>MIM</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
