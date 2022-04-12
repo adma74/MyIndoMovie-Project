@@ -24,7 +24,7 @@ function HomePage() {
             </div>
             <center>
                 <Button style={{ backgroundColor: "black", border: "2px black" }}>
-                    <h6 onClick={() => movePage("/movies")}> See More Recomendations... </h6>
+                    <h6 onClick={() => movePage("/movies")}> See More Recomendations </h6>
                 </Button>
             </center>
         </div>
